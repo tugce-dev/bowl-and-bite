@@ -4,7 +4,7 @@ A responsive restaurant ordering app built with vanilla JavaScript, featuring a 
 
 ## Live Demo
 
-[View Bowl & Bite Live]
+[[View Bowl & Bite Live]](https://bowl-and-bite.netlify.app/)
 
 ## About the Project
 
