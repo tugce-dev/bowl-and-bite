@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Ordering App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <h1>Bowl & Bite</h1>
+      <p>Fresh bowls, big flavor, made your way.</p>
+    </header>
+
+    <main>
+      <div class="menu" id="menu"></div>
+      <div class="container-order" id="order"></div>
+    </main>
+    <div class="modal-overlay" id="modal-overlay"></div>
+
+    <div class="payment-modal" id="payment-modal">
+      <h2>Enter card details</h2>
+
+      <form id="payment-form">
+        <input
+          type="text"
+          name="fullName"
+          placeholder="Enter your name"
+          required
+        />
+
+        <input
+          type="text"
+          name="cardNumber"
+          placeholder="Enter card number"
+          required
+        />
+
+        <input
+          type="text"
+          name="cvv"
+          placeholder="Enter CVV"
+          required
+        />
+
+        <button type="submit" class="pay-btn">Pay</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js" type="module"></script>
+</body>
+</html>
